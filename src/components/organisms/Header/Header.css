@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+}
+
+.header .logo img {
+    height: 40px;
+}
+
+.header .button {
+    margin: 0 10px;
+}
+
+.header .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.header .user-menu {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:480px) {
+    .header {
+        width: 100%;
+        margin: 0;
+    }
+
+    .header .button {
+        display: none;
+    }
+}

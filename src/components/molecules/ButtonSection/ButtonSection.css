@@ -1,0 +1,24 @@
+.buttons-section {
+    display: flex;
+    justify-content: center;
+}
+
+.div-buttonSection {
+    width: 100px;
+}
+
+.buttons-section img {
+    width: 100px;
+}
+
+
+@media (max-width: 480px) {
+
+    .div-buttonSection {
+        width: 100px;
+
+    }
+    .buttons-section img {
+        width: 100px;
+    }
+}

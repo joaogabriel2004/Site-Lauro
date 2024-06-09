@@ -1,0 +1,9 @@
+.logo img {
+    height: 40px;
+}
+
+@media (max-width:480px) {
+    .logo img {
+        display: none;
+    }
+}

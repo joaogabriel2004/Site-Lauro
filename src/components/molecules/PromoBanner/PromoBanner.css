@@ -1,0 +1,23 @@
+.promo-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.promo-banner .image {
+    max-height: 150px;
+}
+
+.promo-banner .text {
+    flex-grow: 1;
+    margin: 0 20px;
+    background-color: #627f9a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+}
