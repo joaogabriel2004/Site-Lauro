@@ -1,18 +1,15 @@
 import React from 'react';
 import Image from '../../atoms/Image/Image';
-import Text from '../../atoms/Text/Text'
-import ImgProduto from '../../assets/produto1.png'
+import Text from '../../atoms/Text/Text';
 import './ProdutoIndividual.css';
 
-const ProdutoIndividual = () => {
+const ProdutoIndividual = ({ product }) => {
     return (
-        <div className="div-individual">
-            <div className="img-produto">
-                <Image src={ImgProduto} alt="Imagem Produto 1" />
-            </div>
-            <div className="info-produto">
-                <Text className="nome-produto">Finger SkateBoard</Text>
-            </div>
+        <div className="product-card">
+            <Image src={product.image} alt={product.name} />
+            <Text className="product-name">{product.name}</Text>
+            <Text className="product-price">{product.price}</Text>
+            <Text className="product-sellers">{product.sellers} vendidos</Text>
         </div>
     );
 };

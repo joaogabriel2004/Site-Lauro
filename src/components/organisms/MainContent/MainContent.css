@@ -1,10 +1,10 @@
 .main-content {
     padding: 0 20%;
+    background-color: #1C3150;
 }
 
 @media (max-width:480px) {
     .main-content {
-
         padding: 0 10px;
         margin: 0px;
     }

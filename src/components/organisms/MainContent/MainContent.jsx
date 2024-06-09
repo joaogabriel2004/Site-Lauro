@@ -2,7 +2,7 @@ import React from 'react';
 import PromoBanner from '../../molecules/PromoBanner/PromoBanner';
 import ButtonSection from '../../molecules/ButtonSection/ButtonSection';
 import FaixaAproveiteOfertas from '../../molecules/FaixaAproveiteOfertas/FaixaAproveiteOfertas';
-import ProdutoIndividual from '../../molecules/ProdutoIndividual/ProdutoIndividual';
+import ConteudoProdutos from '../../molecules/ConteudoProdutos/ConteudoProdutos';
 
 import './MainContent.css';
 
@@ -12,7 +12,7 @@ const MainContent = () => {
             <PromoBanner />
             <ButtonSection />
             <FaixaAproveiteOfertas />
-            <ProdutoIndividual />
+            <ConteudoProdutos />
         </div>
     );
 };
