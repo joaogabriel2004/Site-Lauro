@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './components/organisms/Header/Header';
 import Footer from './components/organisms/Footer/Footer';
-import MainContent from './components/organisms/MainContent/MainContent';
+import MainContent from './components/organisms/MainContent/MainContent'
+import './App.css'
 
 function App() {
     return (
