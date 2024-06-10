@@ -9,6 +9,7 @@ const ConteudoProdutos = () => {
         { image: Produto1, name: 'Copos para Beber', price: 'R$55,99', sellers: '400' },
         { image: Produto1, name: 'Copos para Beber', price: 'R$55,99', sellers: '400' },
         { image: Produto1, name: 'Copos para Beber', price: 'R$55,99', sellers: '400' },
+        { image: Produto1, name: 'Copos para Beber', price: 'R$55,99', sellers: '400' },
     ];
 
     const cutlery = [
@@ -16,9 +17,11 @@ const ConteudoProdutos = () => {
         { image: Produto1, name: 'Copos para Beber', price: 'R$55,99', sellers: '400' },
         { image: Produto1, name: 'Copos para Beber', price: 'R$55,99', sellers: '400' },
         { image: Produto1, name: 'Copos para Beber', price: 'R$55,99', sellers: '400' },
+        { image: Produto1, name: 'Copos para Beber', price: 'R$55,99', sellers: '400' },
     ];
 
     const glasses = [
+        { image: Produto1, name: 'Copos para Beber', price: 'R$55,99', sellers: '400' },
         { image: Produto1, name: 'Copos para Beber', price: 'R$55,99', sellers: '400' },
         { image: Produto1, name: 'Copos para Beber', price: 'R$55,99', sellers: '400' },
         { image: Produto1, name: 'Copos para Beber', price: 'R$55,99', sellers: '400' },

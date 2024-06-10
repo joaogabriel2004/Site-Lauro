@@ -1,0 +1,10 @@
+.menu-acessibilidade {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+}
+
+.menu-acessibilidade img {
+    width: 48px;
+}
