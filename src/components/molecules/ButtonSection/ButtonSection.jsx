@@ -30,7 +30,7 @@ const ButtonSection = () => {
             <div className="div-buttonSection">
                 <Image src={C5} alt="Seção 6" />
             </div>
-            <div className="div-buttonSection">
+            <div className="">
                 <Image src={C3} alt="Seção 7" />
             </div>
         </div>

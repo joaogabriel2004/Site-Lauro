@@ -5,21 +5,22 @@
 }
 
 .div-buttonSection {
-    width: 100px;
+    width: 120px;
 }
 
 .buttons-section img {
-    width: 100px;
+    width: 120px;
 }
 
 
 @media (max-width: 480px) {
 
     .div-buttonSection {
-        width: 100px;
+        margin-right: -20px;
+        width: 130px;
 
     }
     .buttons-section img {
-        width: 100px;
+        width: 130px;
     }
 }
