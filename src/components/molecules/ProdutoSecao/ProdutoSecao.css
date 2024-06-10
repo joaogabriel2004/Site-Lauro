@@ -33,3 +33,10 @@
 .product-section .button:hover {
     background-color: #a8a8a8;
 }
+
+@media (max-width:480px) {
+     .product-section .products-container .product-card {
+
+        flex: 0 0 240px; 
+    }
+}
