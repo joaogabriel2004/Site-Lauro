@@ -4,9 +4,9 @@ import Text from '../../atoms/Text/Text';
 import Button from '../../atoms/Button/Button';
 import './ProdutoSecao.css';
 
-const ProdutoSecao = ({ title, products }) => {
+const ProdutoSecao = ({ title, products, className }) => {
     return (
-        <div className="product-section">
+        <div className={`product-section ${className}`}>
             <Text className="section-title">{title}</Text>
             <div className="products-container">
                 {products.map((product, index) => (

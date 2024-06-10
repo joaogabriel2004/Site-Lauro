@@ -4,3 +4,11 @@
     padding: 20px;
     background-color: #4D6489
 }
+
+.main-products .descoberta-dia {
+    background-color: #89A4C9;
+}
+
+.main-products .descoberta-dia .section-title {
+    text-align: center;
+}

@@ -30,7 +30,7 @@ const ConteudoProdutos = () => {
 
     return (
         <div className="main-products">
-            <ProductSection title="DESCOBERTAS DO DIA" products={dailyDiscoveries} />
+            <ProductSection className="descoberta-dia" title="DESCOBERTAS DO DIA" products={dailyDiscoveries} />
             <ProductSection title="TALHERES" products={cutlery} />
             <ProductSection title="COPOS" products={glasses} />
         </div>
