@@ -1,10 +1,10 @@
 .icon {
-    width: 32px;
-    height: 32px;
+    width: 42px;
+    height: 42px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .icon-user {
-
+    background-image: url(../../assets/PF.png);
 }
