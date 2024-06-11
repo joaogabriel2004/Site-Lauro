@@ -1,0 +1,29 @@
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #4D6489;
+}
+
+.product-detail h2 {
+    color: white;
+}
+
+.div-produto {
+    display: flex;
+    flex-direction: row;
+}
+
+.product-detail button {
+    background-color: #0BD99E;
+    width: 200px;
+    height: 50px;
+    margin-left: 450px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: fixed;
+}
+
+.product-detail button:hover {
+    background-color: #11ad81;
+}

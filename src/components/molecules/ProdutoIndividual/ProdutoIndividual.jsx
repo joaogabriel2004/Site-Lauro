@@ -7,7 +7,7 @@ import './ProdutoIndividual.css';
 const ProdutoIndividual = ({ product }) => {
     return (
         <div className="product-card">
-            <Link to="/other">
+            <Link to="/other" className="custom-link">
                 <Image src={product.image} alt={product.name} />
                 <Text className="product-name">{product.name}</Text>
                 <Text className="product-price">{product.price}</Text>

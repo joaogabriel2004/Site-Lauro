@@ -1,0 +1,40 @@
+.product-info {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: #D9C4BF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-info h2 {
+    color: black !important;
+}
+
+.product-info li {
+    color: black;
+}
+
+.product-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    margin: 5px 0;
+}
+
+.product-description {
+    margin-top: 20px;
+}
+
+.product-description h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}

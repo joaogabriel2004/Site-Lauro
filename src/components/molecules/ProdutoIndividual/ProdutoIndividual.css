@@ -32,6 +32,10 @@
     color: #777;
 }
 
+.custom-link {
+    text-decoration: none;
+}
+
 @media (max-width:480px) {
     .product-card {
         width:300px;
