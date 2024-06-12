@@ -27,4 +27,8 @@
     .promo-banner .text {
         font-size: 1rem;
     }
+
+    .promo-banner img {
+        display: none;
+    }
 }
